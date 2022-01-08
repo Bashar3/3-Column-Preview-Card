@@ -1,0 +1,107 @@
+/* ======= Start Global Rules ======= */
+:root {
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    padding: 30px 0;
+}
+
+/* ======= End Global Rules ======= */
+
+
+/* ======= Start Cards ======= */
+.card {
+    width: 250px;
+    padding: 30px;
+    height: 400px;
+}
+
+/* Card Image */
+.card img {
+    margin: 20px auto;
+}
+
+/* Card Heading */
+.card h3 {
+    color: var(--Very-light-gray);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+/* Card Paragraph */
+.card p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.7;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+/* Card Button */
+.card a {
+    color: var(--Very-light-gray);
+    display: inline-block;
+    margin-top: 60px;
+    border: 1px solid white;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 40px;
+    font-size: 13px;
+    background-color: white;
+    transition: 0.25s;
+}
+
+
+/* First Card */
+.card.first {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card.first a {
+    color: hsl(31, 77%, 52%);
+}
+
+/* Second Card */
+.card.second {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card.second a {
+    color: hsl(184, 100%, 22%);
+}
+
+/* Thrid Card */
+.card.thrid {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.card.thrid a {
+    color: hsl(179, 100%, 13%);
+}
+
+/* Cards Button Hover Effect */
+.card a:hover {
+    background-color: transparent;
+    color: white;
+}
+
+/* ======= End Cards ======= */
